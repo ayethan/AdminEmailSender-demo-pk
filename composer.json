@@ -1,0 +1,25 @@
+{
+    "name": "atk/contact",
+    "description": "send mail",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "atk"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Atk\\Contact\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Atk\\Contact\\ContactServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
